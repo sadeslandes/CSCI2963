@@ -49,6 +49,10 @@ Website | License Present | License
 [codecombat](https://github.com/MonkStrom/codecombat) | Yes | [MIT License](https://en.wikipedia.org/wiki/MIT_License)  
 [cloudbench](https://github.com/CloudBench-IDE/cloudbench) | Yes | [Apache2.0](https://en.wikipedia.org/wiki/Apache_License#Version_2.0)
 
+This course I will be working on [SplitScreen](https://github.com/tassiahmed/SplitScreen) which is licensed under the Apache 2.0 License.
+We want anyone to be able to use our software any way they like, but we are also hoping for some interest/traction from commercial entities.
+For this reason a permissive license that allows patent claims was chosen.
+
 
 
 	
