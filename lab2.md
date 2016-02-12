@@ -40,8 +40,8 @@
 	commercial entities who wish to only use my work (not make a derivative work).
   
 **RCOS Table**  
-Website | License Present | License
----------|:----------|:-------
+Website | License Present | License  
+---------|:----------|:-------  
 [HWserver](https://github.com/RCOS-Grading-Server/HWserver) | Yes | [BSD License](https://en.wikipedia.org/wiki/BSD_licenses)   
 [pandamonium](https://github.com/mwdewey/pandamonium) | No | N/A  
 [Neptune](https://github.com/sarbos/Neptune) | Yes | [MIT License](https://en.wikipedia.org/wiki/MIT_License)   
