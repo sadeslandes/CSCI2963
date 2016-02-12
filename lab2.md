@@ -39,7 +39,6 @@
 	therefore I would personally use the MIT License. The LGPL license would also be a viable option as it may also attract
 	commercial entities who wish to only use my work (not make a derivative work).
   
-**RCOS Table**  
 Website | License Present | License  
 ---------|:----------|:-------  
 [HWserver](https://github.com/RCOS-Grading-Server/HWserver) | Yes | [BSD License](https://en.wikipedia.org/wiki/BSD_licenses)  
