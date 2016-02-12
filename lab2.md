@@ -38,4 +38,15 @@ Which license for which entity?
 	it came from. From the standpoint of a developer, I would just want people to use and contribute to what I made, 
 	therefore I would personally use the MIT License. The LGPL license would also be a viable option as it may also attract
 	commercial entities who wish to only use my work (not make a derivative work).
+
+Website | License Present | License
+---------|:----------|:-------
+[HWserver](https://github.com/RCOS-Grading-Server/HWserver) | Yes | [BSD License](https://en.wikipedia.org/wiki/BSD_licenses) 
+[pandamonium](https://github.com/mwdewey/pandamonium) | No | N/A  
+[Neptune](https://github.com/sarbos/Neptune) | Yes | [MIT License](https://en.wikipedia.org/wiki/MIT_License) 
+[codecombat](https://github.com/MonkStrom/codecombat) | Yes | [MIT License](https://en.wikipedia.org/wiki/MIT_License)
+[cloudbench](https://github.com/CloudBench-IDE/cloudbench) | Yes | [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License#Version_2.0)
+
+
+
 	
