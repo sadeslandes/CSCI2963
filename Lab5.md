@@ -1,7 +1,7 @@
 ## Sam Deslandes - Lab 5
 
 #####Step 1  
-'''
+```
 ubuntu@ubuntu:~/Documents/Lab5/Step1$ cmake .
 -- The C compiler identification is GNU 4.8.4
 -- The CXX compiler identification is GNU 4.8.4
@@ -21,10 +21,10 @@ Scanning dependencies of target Tutorial
 [100%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
 Linking CXX executable Tutorial
 [100%] Built target Tutorial
-'''  
+``` 
 
 #####Step 2  
-'''
+```
 ubuntu@ubuntu:~/Documents/Lab5/Step2$ cmake .
 -- The C compiler identification is GNU 4.8.4
 -- The CXX compiler identification is GNU 4.8.4
@@ -48,10 +48,10 @@ Scanning dependencies of target Tutorial
 [100%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
 Linking CXX executable Tutorial
 [100%] Built target Tutorial
-'''  
+``` 
 
 #####Step 3  
-'''
+```
 ubuntu@ubuntu:~/Documents/Lab5/Step3$ make
 [ 50%] Built target MathFunctions
 [100%] Built target Tutorial
@@ -76,10 +76,10 @@ Total Test time (real) =   0.01 sec
 The following tests FAILED:
 	  3 - TutorialNegative (Failed)
 Errors while running CTest
-'''
+```
 
 #####Step 4  
-'''
+```
 ubuntu@ubuntu:~/Documents/Lab5/Step4$ cmake .
 -- Configuring done
 -- Generating done
@@ -93,10 +93,10 @@ Scanning dependencies of target Tutorial
 [100%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
 Linking CXX executable Tutorial
 [100%] Built target Tutorial
-'''  
+```
 
 ######Step 5
-'''
+```
 ubuntu@ubuntu:~/Documents/Lab5/Step5$ cmake .
 -- The C compiler identification is GNU 4.8.4
 -- The CXX compiler identification is GNU 4.8.4
@@ -129,6 +129,4 @@ Scanning dependencies of target Tutorial
 [100%] Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o
 Linking CXX executable Tutorial
 [100%] Built target Tutorial
-'''
-
-'''test'''
+```
