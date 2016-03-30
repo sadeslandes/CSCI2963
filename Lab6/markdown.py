@@ -30,26 +30,35 @@ def convertHeader(line):
   return line
 
 
-def convertBlockquote(line, in_blockquote):
-  s=re.search('\>',line)
-  if s:
-    if not in_blockquote:
-      line = re.sub(r'\>(.*)', r'<blockquote>\1', line)
-      in_blockquote = True
-    else:
-      line = re.sub(r'\>(.*)', r'', line)
-  elif in_blockquote:
-    in_blockquote = False
-    line = '</blockquote>'+line
-  return (line,in_blockquote) 
+def convertBlockquote(lines):
+  quotes = False
+  for i in range(len(lines)):
+    if re.search('^\>',lines[i]):
+      if not quotes:
+        lines[i] = re.sub(r'^\>(.*)', r'<blockquote>\1', lines[i])
+        quotes = True
+      else:
+        lines[i] = re.sub(r'^\>(.*)', r'\1', lines[i])
+      
+    elif quotes:
+      lines[i-1]+='</blockquote>'
+      quotes = False
+    lines[i] = convertStrong(lines[i])
+    lines[i] = convertEm(lines[i])
+    lines[i] = convertHeader(lines[i])
+    if not re.search('<h',lines[i]):
+      if re.search('^<blockquote>',lines[i]):
+        lines[i] = re.sub(r'^<blockquote>(.*)','<blockquote><p>\g<1></p>',lines[i])
+      else:
+        lines[i] = '<p>'+lines[i]+'</p>'
+    if quotes and i == len(lines)-1:
+      lines[i]+='</blockquote>'        
 
-in_blockquote = False
+lines = []
 for line in fileinput.input():
-  line = line.rstrip() 
-  res = convertBlockquote(line,in_blockquote)
-  line = res[0]
-  line = convertStrong(line)
-  line = convertEm(line)
-  line = convertHeader(line)
-  in_blockquote = res[1]
-  print '<p>' + line + '</p>',
+  lines.append(line.rstrip())  
+
+convertBlockquote(lines)
+
+for line in lines:
+  print line
