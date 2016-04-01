@@ -10,4 +10,4 @@ Doing this dramatically increased runtime, but reduced the number of steps requi
 
 ![Alternative method output](http://puu.sh/o2dzs/bb308391f2.png)
 
-My code can be found here.
+My code can be found [here](https://github.com/sadeslandes/CSCI2963/blob/master/Lab7/wordLadder.py).
