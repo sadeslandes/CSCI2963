@@ -23,6 +23,7 @@ References
 #    All rights reserved.
 #    BSD license.
 
+#    Modifications from the original implementation done by Samuel Deslandes
 import networkx as nx
 
 #-------------------------------------------------------------------
