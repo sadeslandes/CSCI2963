@@ -5,11 +5,15 @@ Basic queries such as:
 - `find()`  
 - `findOne()`  
 - `insert()`  
-- `update()`   
+- `update()`  
+
+#####Output:
 ![Basic Queries](http://puu.sh/oiNI8/21c238ae72.png)
 
 ####Checkpoint 4 - Python Queries
-This checkpoint performs the same basic queries as checkpoint 3, this time driven by a pyhton script instead of directly through the monogo shell.  
+This checkpoint performs the same basic queries as checkpoint 3, this time driven by a pyhton script instead of directly through the monogo shell. 
+
+#####Output:
 ![Checkpoint4 Output](http://puu.sh/oiNJ0/f6a501035a.png)  
 
 #####Code:  
@@ -46,6 +50,8 @@ if __name__ == '__main__':
  
 ####Checkpoint 5 - Random word script
 This script prints a random word in the collection and its definition, as well as the dates it was accessed.  
+
+#####Output:
 ![Checkpoint5 Output](http://puu.sh/oiNJt/b1fdf05e22.png)  
 
 #####Code:  
