@@ -36,6 +36,9 @@ rules <- apriori(admissions,parameter = list(minlen=2,supp=0.005,conf=0.8),
 				 appearance=list(rhs=c("admit=1"),default="lhs"))
 ``` 
 
-The results:
+The results:  
 ![rules2](http://puu.sh/oaSb5/57da5696bb.png)
 ![graph](http://puu.sh/oaSe3/1e8b1b370c.png)
+
+#####Project progress
+This was a busy week which left me with no time to work on my project.
