@@ -1,7 +1,7 @@
 ###Sam Deslandes - Lab 8 
 
 ####Checkpoint 3 - Basic Queries
-Basic queries such as:
+Basic queries such as:  
 	- `find()`
 	- `findOne()`
 	- `insert()`
