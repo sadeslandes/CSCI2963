@@ -2,10 +2,10 @@
 
 ####Checkpoint 3 - Basic Queries
 Basic queries such as:  
-	- `find()`  
-	- `findOne()`  
-	- `insert()`  
-	- `update()`   
+- `find()`  
+- `findOne()`  
+- `insert()`  
+- `update()`   
 ![Basic Queries](http://puu.sh/oiNI8/21c238ae72.png)
 
 ####Checkpoint 4 - Python Queries
