@@ -1,17 +1,16 @@
 ###Sam Deslandes - Lab 8 
 
-A total of 3 changes were made by our table: 
 ####Checkpoint 3 - Basic Queries
 Basic queries such as:
-	* `find()`
-	* `findOne()`
-	* `insert()`
-	* `update()` 
-![Basic Queries](https://www.dropbox.com/s/03n6ycoje5zur9z/Screenshot%202016-04-14%2023.17.53.png?dl=0)
+	- `find()`
+	- `findOne()`
+	- `insert()`
+	- `update()` 
+![Basic Queries](http://puu.sh/oiNI8/21c238ae72.png)
 
 ####Checkpoint 4 - Python Queries
 This checkpoint performs the same basic queries as checkpoint 3, this time driven by a pyhton script instead of directly through the monogo shell.  
-![Checkpoint4 Output](https://www.dropbox.com/s/nx4jygc6sqxc9ab/Screenshot%202016-04-15%2000.49.18.png?dl=0)  
+![Checkpoint4 Output](http://puu.sh/oiNJ0/f6a501035a.png)  
 
 #####Code:  
 ```
@@ -47,7 +46,7 @@ if __name__ == '__main__':
  
 ####Checkpoint 5 - Random word script
 This script prints a random word in the collection and its definition, as well as the dates it was accessed.  
-![Checkpoint5 Output](https://www.dropbox.com/s/dbecbibq8g5ntw9/Screenshot%202016-04-15%2002.20.49.png?dl=0)  
+![Checkpoint5 Output](http://puu.sh/oiNJt/b1fdf05e22.png)  
 
 #####Code:  
 ```
