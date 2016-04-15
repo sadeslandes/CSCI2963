@@ -1,4 +1,4 @@
-###Sam Deslandes - Lab 8 
+###Sam Deslandes - Lab 9  
 
 ####Checkpoint 3 - Basic Queries
 Basic queries such as:  
